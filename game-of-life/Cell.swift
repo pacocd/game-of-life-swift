@@ -9,21 +9,18 @@
 import Foundation
 
 class Cell {
-    var isAlive: Bool
-    var neighbors: [Cell]?
+    let x: Int
+    let y: Int
+    var state: State
 
-    init(isAlive: Bool) {
-        self.isAlive = isAlive
+    init(x: Int, y: Int, state: State) {
+        self.x = x
+        self.y = y
+        self.state = state
     }
 
-    func countAliveNeighbors(cell neighbors: [Cell]) -> Int {
-        var aliveNeighbors: Int = 0
-        for neighbor in neighbors {
-            if neighbor.isAlive {
-                aliveNeighbors += 1
-            }
-        }
+}
 
-        return aliveNeighbors
-    }
+enum State {
+    case dead, alive
 }

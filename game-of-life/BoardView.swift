@@ -69,7 +69,6 @@ class BoardView: UIView, Board {
                                 y: 0,
                                 width: 0,
                                 height: 0))
-
     }
 
     override init(frame: CGRect) {

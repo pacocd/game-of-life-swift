@@ -46,7 +46,7 @@ class BoardCell: UICollectionViewCell {
     }
 
     func setBackgroundColor(using cell: Cell) {
-        if cell.isAlive {
+        if cell.state == .alive {
             self.backgroundColor = .black
         } else {
             self.backgroundColor = .white

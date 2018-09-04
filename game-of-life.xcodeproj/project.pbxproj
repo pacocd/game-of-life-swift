@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2838EC802139EFA70072B595 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2838EC7F2139EFA60072B595 /* GameController.swift */; };
+		2838EC802139EFA70072B595 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2838EC7F2139EFA60072B595 /* Game.swift */; };
+		284DED2F213DFAA70032A212 /* Universe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284DED2E213DFAA70032A212 /* Universe.swift */; };
 		28E2CF7F212234170074E948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2CF7E212234170074E948 /* AppDelegate.swift */; };
 		28E2CF86212234180074E948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E2CF85212234180074E948 /* Assets.xcassets */; };
 		28E2CF89212234180074E948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E2CF87212234180074E948 /* LaunchScreen.storyboard */; };
@@ -29,7 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2838EC7F2139EFA60072B595 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		2838EC7F2139EFA60072B595 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		284DED2E213DFAA70032A212 /* Universe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Universe.swift; sourceTree = "<group>"; };
 		28E2CF7B212234170074E948 /* game-of-life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "game-of-life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E2CF7E212234170074E948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28E2CF85212234180074E948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				28E2CFA7212240140074E948 /* Cell.swift */,
+				284DED2E213DFAA70032A212 /* Universe.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -73,7 +76,7 @@
 		2838EC82213A2A8D0072B595 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				2838EC7F2139EFA60072B595 /* GameController.swift */,
+				2838EC7F2139EFA60072B595 /* Game.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -233,7 +236,8 @@
 				28E2CFA8212240140074E948 /* Cell.swift in Sources */,
 				28EE228D213D9D24005C1BCF /* BoardView.swift in Sources */,
 				28E2CFA4212234DB0074E948 /* BoardCell.swift in Sources */,
-				2838EC802139EFA70072B595 /* GameController.swift in Sources */,
+				2838EC802139EFA70072B595 /* Game.swift in Sources */,
+				284DED2F213DFAA70032A212 /* Universe.swift in Sources */,
 				28E2CF7F212234170074E948 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,8 +10,8 @@ import UIKit
 
 class GameViewController: UIViewController {
 
-    let cellsPerLine: CGFloat = 10
-    let numberOfCells: Int = 100
+    let cellsPerLine: CGFloat = 20
+    let numberOfCells: Int = 400
     let boardView: BoardView = BoardView()
 
     override func viewWillAppear(_ animated: Bool) {
@@ -63,7 +63,7 @@ class GameViewController: UIViewController {
         let reloadBoard = { [weak self] () -> Void in
             self?.boardView.board.reloadData()
         }
-        GameContainer.shared.fillWorld(cells: numberOfCells,
+        Game.shared.fillWorld(cells: numberOfCells,
                                        completion: reloadBoard)
     }
 
@@ -75,13 +75,13 @@ extension GameViewController: UICollectionViewDelegate {
 extension GameViewController: UICollectionViewDataSource {
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return GameContainer.shared.universe.count
+        return Game.shared.universe.cells.count
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = boardView.board.dequeueReusableCell(withReuseIdentifier: BoardCell.identifier,
                                                        for: indexPath) as! BoardCell
-        cell.cell = GameContainer.shared.universe[indexPath.row]
+        cell.cell = Game.shared.universe.cells[indexPath.row]
         return cell
     }
 
