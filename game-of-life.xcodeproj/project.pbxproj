@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2838EC802139EFA70072B595 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2838EC7F2139EFA60072B595 /* Game.swift */; };
 		284DED2F213DFAA70032A212 /* Universe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284DED2E213DFAA70032A212 /* Universe.swift */; };
+		287895FF215EE54E00EBA3C6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287895FE215EE54E00EBA3C6 /* File.swift */; };
 		28E2CF7F212234170074E948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2CF7E212234170074E948 /* AppDelegate.swift */; };
 		28E2CF86212234180074E948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E2CF85212234180074E948 /* Assets.xcassets */; };
 		28E2CF89212234180074E948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E2CF87212234180074E948 /* LaunchScreen.storyboard */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		2838EC7F2139EFA60072B595 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		284DED2E213DFAA70032A212 /* Universe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Universe.swift; sourceTree = "<group>"; };
+		287895FE215EE54E00EBA3C6 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		28E2CF7B212234170074E948 /* game-of-life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "game-of-life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E2CF7E212234170074E948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28E2CF85212234180074E948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				28E2CFA3212234DB0074E948 /* BoardCell.swift */,
 				28E2CFA521223C740074E948 /* GameViewController.swift */,
 				28EE228C213D9D24005C1BCF /* BoardView.swift */,
+				287895FE215EE54E00EBA3C6 /* File.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				28EE228D213D9D24005C1BCF /* BoardView.swift in Sources */,
 				28E2CFA4212234DB0074E948 /* BoardCell.swift in Sources */,
 				2838EC802139EFA70072B595 /* Game.swift in Sources */,
+				287895FF215EE54E00EBA3C6 /* File.swift in Sources */,
 				284DED2F213DFAA70032A212 /* Universe.swift in Sources */,
 				28E2CF7F212234170074E948 /* AppDelegate.swift in Sources */,
 			);
