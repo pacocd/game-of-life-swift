@@ -10,6 +10,7 @@ import Foundation
 
 class Game {
 
+    sdfgsdfgsd
     static let shared: Game = Game(dimensions: 400)
     var universe: Universe
     var dimensions: Int
